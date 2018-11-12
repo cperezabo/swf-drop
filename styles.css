@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.message {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.flash-disabled {
+    display: none;
+}
+
+.flash-enabled {
+    display: none;
+}
+
+embed {
+    width: 100vw;
+    height: 100vh;
+}
